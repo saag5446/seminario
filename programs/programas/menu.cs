@@ -35,13 +35,18 @@ namespace programs
                 switch (opcion)
                 {
                     case 1:
-                        Program1 m = new Program1();
-                        m.fun();
+                        Program1 p1 = new Program1();
+                        p1.fun();
+                        break;
+
+                    case 7:
+                        Program7 p7= new Program7();
+                        p7.fun();
                         break;
 
                     case 8:
-                        Program8 n= new Program8();
-                        n.fun();
+                        Program8 p8= new Program8();
+                        p8.fun();
                         break;
 
                 }
