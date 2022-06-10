@@ -37,6 +37,11 @@ namespace programs
                     case 1:
                         Program1 p1 = new Program1();
                         p1.fun();
+                        break;  
+
+                    case 5:
+                        Program5 p5= new Program5();
+                        p5.fun();
                         break;
 
                     case 7:
@@ -48,6 +53,7 @@ namespace programs
                         Program8 p8= new Program8();
                         p8.fun();
                         break;
+                        
 
                 }
                 Console.WriteLine("Desea repetir el programa de operaciones Matematicas s/n");
