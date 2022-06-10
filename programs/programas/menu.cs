@@ -39,7 +39,9 @@ namespace programs
                         m.fun();
                         break;
 
-                    case 2:
+                    case 8:
+                        Program8 n= new Program8();
+                        n.fun();
                         break;
 
                 }

@@ -8,41 +8,50 @@ namespace programs
 {
     public class Program8
     {
-
-        private double expoN[];
+        private double n,x,produccion_gallinas;
+        
+        private double[] expon;
 
         private void exponente()
         {
-            expoN = new double[(int)(n + 1)];
-            for (int i = 1; i <= n; i++)
-                expoN[i] = Math.pow(x, i);
+            expon = new double[(int)(this.n + 1)];
+            for (int i = 1; i <= this.n; i++)
+                expon[i] = Math.Pow(x, i);
         }
 
-        private double resFacs[];
+        private double[] resultFacts;
 
         private void factorial()
         {
-            resFacs = new double[(int)(n + 1)];
-            resFacs[0] = 1;
-            for (int i = 1; i <= n; i++)
-                resFacs[i] = resFacs[i - 1] * i;
+            resultFacts = new double[(int)(n + 1)];
+            resultFacts[0] = 1;
+            for (int i = 1; i <= this.n; i++)
+                resultFacts[i] = resultFacts[i - 1] * i;
         }
 
         public void operaciones()
         {
             exponente();
             factorial();
-            setProduccion_gallinas(1 + x);
-            for (int i = 2; i <= n; i++)
-                produccion_gallinas += expoN[i] / resFacs[i];
+            this.produccion_gallinas =1+this.x;
+            for (int i = 2; i <= this.n; i++)
+                this.produccion_gallinas += expon[i] / resultFacts[i];
         }
 
         public void fun()
         {
             Console.WriteLine("Ingrese el numero de gallinas:");
-            double x = Double.Parse(Console.ReadLine());
+             this.x = Double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el numero de dias:");
-            double n = Double.Parse(Console.ReadLine());
+             this.n = Double.Parse(Console.ReadLine());
+            operaciones();
+            
+
+        Console.WriteLine("*********************************");
+        Console.WriteLine("*****Resultado Final: " + this.produccion_gallinas + "*****");
+      
         }
+        
     }
+    
 }
