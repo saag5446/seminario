@@ -8,8 +8,8 @@ namespace programs
 {
     public class Program8
     {
-        private double n,x,produccion_gallinas;
-        
+        private double n, x, produccion_gallinas;
+
         private double[] expon;
 
         private void exponente()
@@ -33,7 +33,7 @@ namespace programs
         {
             exponente();
             factorial();
-            this.produccion_gallinas =1+this.x;
+            this.produccion_gallinas = 1 + this.x;
             for (int i = 2; i <= this.n; i++)
                 this.produccion_gallinas += expon[i] / resultFacts[i];
         }
@@ -41,17 +41,17 @@ namespace programs
         public void fun()
         {
             Console.WriteLine("Ingrese el numero de gallinas:");
-             this.x = Double.Parse(Console.ReadLine());
+            this.x = Double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el numero de dias:");
-             this.n = Double.Parse(Console.ReadLine());
+            this.n = Double.Parse(Console.ReadLine());
             operaciones();
-            
+            int var;
 
-        Console.WriteLine("*********************************");
-        Console.WriteLine("*****Resultado Final: " + this.produccion_gallinas + "*****");
-      
+            Console.WriteLine("*********************************");
+            Console.WriteLine("*****Resultado Final: " + this.produccion_gallinas + "*****");
+
         }
-        
+
     }
-    
+
 }
