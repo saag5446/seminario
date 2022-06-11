@@ -46,6 +46,7 @@ namespace programs
             this.n = Double.Parse(Console.ReadLine());
             operaciones();
 
+
             Console.WriteLine("*********************************");
             Console.WriteLine("*****Resultado Final: " + this.produccion_gallinas + "*****");
 
