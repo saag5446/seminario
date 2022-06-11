@@ -45,7 +45,6 @@ namespace programs
             Console.WriteLine("Ingrese el numero de dias:");
             this.n = Double.Parse(Console.ReadLine());
             operaciones();
-            int var;
 
             Console.WriteLine("*********************************");
             Console.WriteLine("*****Resultado Final: " + this.produccion_gallinas + "*****");
