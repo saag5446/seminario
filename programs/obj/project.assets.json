@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\programs\\programs.csproj",
+      "projectUniqueName": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\seminario\\programs\\programs.csproj",
       "projectName": "programs",
-      "projectPath": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\programs\\programs.csproj",
+      "projectPath": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\seminario\\programs\\programs.csproj",
       "packagesPath": "C:\\Users\\Estacion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\programs\\obj\\",
+      "outputPath": "C:\\Users\\Estacion\\Pictures\\Camera Roll\\seminario\\seminario\\programs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

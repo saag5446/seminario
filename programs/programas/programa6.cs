@@ -110,7 +110,7 @@ namespace programs
 
         public void fun()
         {
-
+            int var;
             Console.WriteLine("cuantos numeros quiere introducir ");
             int n = int.Parse(Console.ReadLine()); ;
             int[] numeros = new int[n];

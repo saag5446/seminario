@@ -49,6 +49,11 @@ namespace programs
                         p5.fun();
                         break;
 
+                    case 6:
+                        Program6 p6= new Program6();
+                        p6.fun();
+                        break;
+
                     case 7:
                         Program7 p7= new Program7();
                         p7.fun();
