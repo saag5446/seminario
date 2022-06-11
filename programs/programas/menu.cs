@@ -35,12 +35,35 @@ namespace programs
                 switch (opcion)
                 {
                     case 1:
-                        Program1 m = new Program1();
-                        m.fun();
+                        Program1 p1 = new Program1();
+                        p1.fun();
+                        break;  
+
+                    case 4:
+                        Program4 p4= new Program4();
+                        p4.fun();
+                        break;
+                
+                    case 5:
+                        Program5 p5= new Program5();
+                        p5.fun();
                         break;
 
-                    case 2:
+                    case 6:
+                        Program6 p6= new Program6();
+                        p6.fun();
                         break;
+
+                    case 7:
+                        Program7 p7= new Program7();
+                        p7.fun();
+                        break;
+
+                    case 8:
+                        Program8 p8= new Program8();
+                        p8.fun();
+                        break;
+                        
 
                 }
                 Console.WriteLine("Desea repetir el programa de operaciones Matematicas s/n");
