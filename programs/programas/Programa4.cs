@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace programs
 {
-    public class Program4
+    public class Program4 
     {
         public void fun() 
         {
