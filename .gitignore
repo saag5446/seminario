@@ -1,2 +1,3 @@
 *.dll
-programs/prueba
+programs/bin
+programs/obj
