@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace programs
 {
-    public class Program8
+    public class Programr
     {
         private double n, x, produccion_gallinas;
 
